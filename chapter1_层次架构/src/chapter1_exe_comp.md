@@ -106,3 +106,12 @@ A．800 ms、1 600 ms 	B．801 ms、1 600 ms 	C．1 600 ms、800 ms 	D．1 600 m
 A.80ms		B.80.08ms		C.80.1 6ms		D.80.24ms
 
 <img src="../img/截屏2020-10-19 下午10.31.21.png"  width="600"  height = "150" />
+
+
+
+$一组报文发送时延 = \frac{1000B}{100Mbps} = \frac{1000 \times 8b}{100 \times 10^6 b/s} = 8 \times 10 ^ {-5}s$ 
+
+$报文发送时延 = 8 \times 10 ^ {-5}s \times \frac{980000B}{1000B - 20B}组 = 8 \times 10 ^{-2} = 80ms $
+
+$分组发送时延 = \frac{1000B}{100Mbps} \times 2= 1.6\times 10^{-4}s = 0.16ms $
+
